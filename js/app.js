@@ -162,6 +162,7 @@ function filtrartransmision(auto){
     if ( transmision ){
         return auto.transmision === transmision;
     }
+    return auto;
 }
 function filtrarColor(auto){
     const { color } = datosBusqueda;
